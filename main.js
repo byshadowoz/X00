@@ -1,5 +1,15 @@
-function sumaTotal(array) {
-   const SumaTotal = array.reduce((acumulador, valorActual) => acumulador + valorActual);;
+function Suma() {
+   const SumaTotal = zar.reduce((acumulador, valorActual) => acumulador + valorActual);;
    console.log(SumaTotal)
 }
-sumaTotal([34,34,64,642,1213])
+
+const zar = document.getElementById('#ROBLOX')
+const sumarbtn = document.getElementById('#sumar')
+const arraynumbers = []
+const versuma = document.getElementById('#mostrarsuma')
+
+sumarbtn.addEventListener('click', function(){
+   arraynumbers.push(zar.value);
+   let total = arraynumbers.Suma()
+   versuma.innerHTML = total;
+})
