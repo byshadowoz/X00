@@ -6,15 +6,16 @@ font-family: 'Josefin Sans', sans-serif;
 font-size: large;
 margin: auto;
 }
-#headerfile {
-   background-color: antiquewhite;
+.headerfile {
+   background-color: rgb(143, 128, 108);
    padding: 0%;
    grid-row: auto;
 
 } 
 
-#con{
+.con{
    background-color: aquamarine;
    align-content: flex-end;
-   margin: 20px;
+   margin: 0px;
+   padding: 20px;
 }
