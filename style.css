@@ -6,13 +6,9 @@ font-family: 'Josefin Sans', sans-serif;
 font-size: large;
 margin: auto;
 }
-#headerfile {
-   padding: 0%;
-   grid-row: auto;
-
-} 
-
-#con{
-   align-content: flex-end;
-   margin: 20px;
+.conted {
+  padding: 10px;
+  background-color: rgb(236, 218, 191);
+  box-shadow: 1px 1px 1px rgb(248, 0, 0);
+  margin: 20px;
 }
