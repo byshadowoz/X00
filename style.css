@@ -2,20 +2,39 @@
    margin: 0;
    padding: 0;
    text-decoration: none;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Playfair Display', serif; 
+   color: gray;  
 }
+.material-symbols-outlined {
+   font-variation-settings:
+   'FILL' 1,
+   'wght' 700,
+   'GRAD' 0,
+   'opsz' 40
+ }
 body{
-   font-size: xx-large;
+   font-size: 30px;
+   font-weight: 900;
    background-color: rgb(208, 60, 60);
 }
 header{
-   background-color: rgb(93, 86, 76);
+   background-color: rgb(156, 43, 43);
    width: 100%;
-   height: auto;
-   text-shadow: white 5px 5px 3px;
+   height: 250px;
+   text-shadow: rgb(73, 17, 17) 5px 5px 3px;
+}
+header .info-header-up{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 2px;
+ align-items: center;
 }
 .info-index {
    display: flex;
-   justify-content: center;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 5px;
+   border: 3px;
 }
-
